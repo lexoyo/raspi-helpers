@@ -42,6 +42,7 @@ JasperBase () {
 	# Now begin
 	cd ~
 	sudo pip install --upgrade setuptools
+	sudo chmod +x ~/jasper/client/requirements.txt
 	sudo pip install -r ~/jasper/client/requirements.txt
 	chmod +x jasper/jasper.py
 
